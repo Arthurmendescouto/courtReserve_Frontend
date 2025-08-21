@@ -1,0 +1,44 @@
+.filtros-container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown,
+.date-input,
+.btn-buscar {
+  flex: 1;
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.btn-buscar {
+  flex: 1;
+  background: #2563eb;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-buscar:hover {
+  background: #1d4ed8;
+}
+
+
+.btn-buscar:active {
+  background: #1e40af;
+}
