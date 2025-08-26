@@ -1,1 +1,20 @@
-<p>quadra-card works!</p>
+<div class="card">
+  
+  <div class="image">
+    <img [src]="imageUrl" alt="{{ name }}" />
+  </div>
+
+  <div class="info">
+    <h3>{{ name }}</h3>
+    <p>{{ sport }} • {{ city }}</p>
+    <p class="price">R$ {{ price }}/h</p>
+
+    <p class="stars">⭐ {{ stars }}</p>
+
+    <div class="schedules">
+      <button *ngFor="let slot of slots">{{ slot }}</button>
+    </div>
+
+    <button class="book">Agendar</button>
+  </div>
+</div>

@@ -1,0 +1,81 @@
+.card {
+  width: 320px;
+  background-color: #111; /* fundo preto */
+  color: #fff; /* texto branco */
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.image img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 16px;
+}
+
+.info h3 {
+  font-size: 18px;
+  margin: 0 0 6px;
+  font-weight: bold;
+}
+
+.info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.price {
+  font-weight: bold;
+  color: #fff;
+}
+
+.stars {
+  color: #f4c542; /* amarelo/dourado */
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.schedules {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.schedules button {
+  background-color: #222;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.schedules button:hover {
+  background-color: #333;
+}
+
+.book {
+  width: 100%;
+  background-color: #2563eb; /* azul */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.3s;
+}
+
+.book:hover {
+  background-color: #1d4ed8; /* azul mais escuro */
+}

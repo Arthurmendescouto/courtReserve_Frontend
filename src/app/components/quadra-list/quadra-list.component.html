@@ -1,1 +1,12 @@
-<p>quadra-list works!</p>
+<div class="quadra-list">
+  <app-quadra-card
+    *ngFor="let quadra of quadras"
+    [name]="quadra.name"
+    [stars]="quadra.stars"
+    [sport]="quadra.sport"
+    [city]="quadra.city"
+    [price]="quadra.price"
+    [slots]="quadra.slots"
+    [imageUrl]="quadra.imageUrl">
+  </app-quadra-card>
+</div>

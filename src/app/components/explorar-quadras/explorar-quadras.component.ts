@@ -4,6 +4,7 @@ import { QuadraListComponent } from '../quadra-list/quadra-list.component';
 
 @Component({
   selector: 'app-explorar-quadras',
+  standalone: true,
   imports: [FiltrosComponent,QuadraListComponent],
   templateUrl: './explorar-quadras.component.html',
   styleUrl: './explorar-quadras.component.css'
